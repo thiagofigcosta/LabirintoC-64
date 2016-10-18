@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <code-assistance-data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <code-model-enabled>true</code-model-enabled>
+    </code-assistance-data>
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>0</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/nanotech/gitKraken/LostInDitaduraC-64/scr/Libs/loadFiles.cpp</file>
+            <file>file:/home/nanotech/gitKraken/LostInDitaduraC-64/scr/Classes/Scenes.cpp</file>
+            <file>file:/home/nanotech/gitKraken/LostInDitaduraC-64/scr/Classes/GL.cpp</file>
+            <file>file:/home/nanotech/gitKraken/LostInDitaduraC-64/scr/Classes/Map.cpp</file>
+            <file>file:/home/nanotech/gitKraken/LostInDitaduraC-64/scr/Libs/GL.CallBacks.cpp</file>
+            <file>file:/home/nanotech/gitKraken/LostInDitaduraC-64/scr/Classes/Shader.hpp</file>
+            <file>file:/home/nanotech/gitKraken/LostInDitaduraC-64/scr/Classes/Util.cpp</file>
+            <file>file:/home/nanotech/gitKraken/LostInDitaduraC-64/scr/Classes/Map.hpp</file>
+            <file>file:/home/nanotech/gitKraken/LostInDitaduraC-64/scr/Classes/GL.hpp</file>
+            <file>file:/home/nanotech/gitKraken/LostInDitaduraC-64/scr/main.cpp</file>
+            <file>file:/home/nanotech/gitKraken/LostInDitaduraC-64/scr/Classes/Shader.cpp</file>
+            <file>file:/home/nanotech/gitKraken/LostInDitaduraC-64/scr/Classes/nTCamera.hpp</file>
+            <file>file:/home/nanotech/gitKraken/LostInDitaduraC-64/scr/Classes/nTCamera.cpp</file>
+            <file>file:/home/nanotech/gitKraken/LostInDitaduraC-64/scr/Classes/Light.hpp</file>
+            <file>file:/home/nanotech/gitKraken/LostInDitaduraC-64/scr/Classes/Light.cpp</file>
+        </group>
+    </open-files>
+</project-private>
