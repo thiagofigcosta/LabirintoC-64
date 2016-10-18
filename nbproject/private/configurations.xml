@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="scr" name="0">
+      <df name="Classes">
+        <in>AL.cpp</in>
+        <in>AL.hpp</in>
+        <in>GL.cpp</in>
+        <in>GL.hpp</in>
+        <in>Light.cpp</in>
+        <in>Light.hpp</in>
+        <in>Player.cpp</in>
+        <in>Player.hpp</in>
+        <in>Scenes.cpp</in>
+        <in>Scenes.hpp</in>
+        <in>Shader.cpp</in>
+        <in>Shader.hpp</in>
+        <in>Util.cpp</in>
+        <in>Util.hpp</in>
+        <in>nTCamera.cpp</in>
+        <in>nTCamera.hpp</in>
+        <in>nTMap.cpp</in>
+        <in>nTMap.hpp</in>
+        <in>nTParticle.cpp</in>
+        <in>nTParticle.hpp</in>
+      </df>
+      <df name="Libs">
+        <df name="soil">
+          <in>SOIL.c</in>
+          <in>SOIL.h</in>
+          <in>image_DXT.c</in>
+          <in>image_DXT.h</in>
+          <in>image_helper.c</in>
+          <in>image_helper.h</in>
+          <in>stb_image_aug.c</in>
+          <in>stb_image_aug.h</in>
+          <in>stbi_DDS_aug.h</in>
+          <in>stbi_DDS_aug_c.h</in>
+        </df>
+        <in>GL.CallBacks.cpp</in>
+        <in>GL.Callbacks.h</in>
+        <in>Globals.cpp</in>
+        <in>Globals.h</in>
+        <in>loadFiles.cpp</in>
+        <in>loadFiles.h</in>
+        <in>nTLoader.h</in>
+        <in>tinyLoader.cpp</in>
+        <in>tinyLoader.h</in>
+      </df>
+      <in>importLibs.h</in>
+      <in>main.cpp</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
