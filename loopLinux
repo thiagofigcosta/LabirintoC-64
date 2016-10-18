@@ -1,0 +1,6 @@
+#!/bin/bash
+make all
+while true;
+do
+  ./Bin/TCG;
+done;
