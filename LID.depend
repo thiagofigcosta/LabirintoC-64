@@ -1,0 +1,191 @@
+# depslib dependency file v1.0
+1477169175 source:c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\al.cpp
+	"AL.hpp"
+
+1477020481 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\al.hpp
+	<AL/al.h>
+	<AL/alc.h>
+	"Util.hpp"
+
+1477098093 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\util.hpp
+	<vector>
+	<string>
+	<cstdlib>
+	<iostream>
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1477214079 source:c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\gl.cpp
+	"GL.hpp"
+	"../Libs/GL.Callbacks.h"
+	"nTCamera.hpp"
+	"nTMap.hpp"
+	"Scenes.hpp"
+	"Light.hpp"
+
+1477215384 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\gl.hpp
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<time.h>
+	"../Libs/soil/SOIL.h"
+	"Util.hpp"
+	"nTCamera.hpp"
+	"../Libs/nTLoader.h"
+
+1477020481 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\libs\soil\soil.h
+
+1477188481 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\ntcamera.hpp
+	"Util.hpp"
+
+1477020481 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\libs\ntloader.h
+	"../Classes/Util.hpp"
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<fstream>
+	<iostream>
+	<sstream>
+	"tinyLoader.h"
+
+1477020481 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\libs\tinyloader.h
+	<map>
+	<string>
+	<vector>
+
+1477020481 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\libs\gl.callbacks.h
+	"../Classes/GL.hpp"
+	"../Classes/Util.hpp"
+	"../Classes/Scenes.hpp"
+	"../Libs/Globals.h"
+	"loadFiles.h"
+
+1477214007 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\scenes.hpp
+	"Util.hpp"
+	"nTMap.hpp"
+	"../Libs/Globals.h"
+
+1477180316 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\ntmap.hpp
+	"Util.hpp"
+	"GL.hpp"
+	"Player.hpp"
+
+1477200836 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\player.hpp
+	"Util.hpp"
+	"../Libs/nTLoader.h"
+
+1477020481 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\libs\globals.h
+	"../Classes/Util.hpp"
+	"../Classes/AL.hpp"
+	"../Classes/GL.hpp"
+
+1477202638 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\libs\loadfiles.h
+	"Globals.h"
+	"../Classes/Util.hpp"
+	"../Classes/AL.hpp"
+	"../Classes/GL.hpp"
+
+1477213937 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\light.hpp
+	"Util.hpp"
+	"GL.hpp"
+
+1477213922 source:c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\light.cpp
+	"Light.hpp"
+
+1477200207 source:c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\ntcamera.cpp
+	"nTCamera.hpp"
+	"GL.hpp"
+	"Player.hpp"
+
+1477193502 source:c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\ntmap.cpp
+	"nTMap.hpp"
+
+1477189870 source:c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\ntparticle.cpp
+	"nTParticle.hpp"
+	"Player.hpp"
+	"nTMap.hpp"
+
+1477189833 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\ntparticle.hpp
+	"Util.hpp"
+	"GL.hpp"
+
+1477201669 source:c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\player.cpp
+	"Player.hpp"
+	"GL.hpp"
+	"nTMap.hpp"
+	"Scenes.hpp"
+
+1477213993 source:c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\scenes.cpp
+	"Scenes.hpp"
+	"AL.hpp"
+	"nTMap.hpp"
+	"../Libs/loadFiles.h"
+	"nTCamera.hpp"
+	"Light.hpp"
+	"Shader.hpp"
+	"Player.hpp"
+	"nTParticle.hpp"
+
+1477190322 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\shader.hpp
+	"Util.hpp"
+	"GL.hpp"
+
+1477190342 source:c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\shader.cpp
+	"Shader.hpp"
+
+1477020481 source:c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\classes\util.cpp
+	"Util.hpp"
+
+1477214105 source:c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\libs\gl.callbacks.cpp
+	"GL.Callbacks.h"
+	"../Classes/nTMap.hpp"
+	"../Classes/Player.hpp"
+	"../Classes/Shader.hpp"
+
+1477020481 source:c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\libs\globals.cpp
+	"Globals.h"
+
+1477202888 source:c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\libs\loadfiles.cpp
+	"loadFiles.h"
+	"../Classes/Light.hpp"
+	"../Classes/nTParticle.hpp"
+	"../Classes/Shader.hpp"
+	"../Classes/Player.hpp"
+
+1477020481 source:c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\libs\tinyloader.cpp
+	"tinyLoader.h"
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+
+1477190465 source:c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\main.cpp
+	"importLibs.h"
+
+1477020481 c:\users\nanotech corporation\desktop\lostinditadurac-64\lid\scr\importlibs.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<vector>
+	<string>
+	<memory>
+	<time.h>
+	"Classes/GL.hpp"
+	"Classes/AL.hpp"
+	"Classes/Util.hpp"
+	"Classes/Scenes.hpp"
+	"Libs/Globals.h"
+	"Libs/GL.Callbacks.h"
+	"Libs/loadFiles.h"
+	"Libs/nTLoader.h"
+

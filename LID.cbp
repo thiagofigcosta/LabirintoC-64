@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LID" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LID" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../../Program Files (x86)/CodeBlocks/MinGW/lib/glut32.lib" />
+					<Add library="../../../../../Program Files (x86)/CodeBlocks/MinGW/lib/OpenAL32.lib" />
+					<Add library="../../../../../Program Files (x86)/CodeBlocks/MinGW/lib/libopengl32.a" />
+					<Add library="../../../../../Program Files (x86)/CodeBlocks/MinGW/lib/libglew32.a" />
+					<Add library="../../../../../Program Files (x86)/CodeBlocks/MinGW/lib/libglew32.dll.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LID" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+			<Add library="../../../../../Program Files (x86)/CodeBlocks/MinGW/lib/glew32.lib" />
+			<Add library="../../../../../Program Files (x86)/CodeBlocks/MinGW/lib/glew32s.lib" />
+		</Linker>
+		<Unit filename="scr/Classes/AL.cpp" />
+		<Unit filename="scr/Classes/AL.hpp" />
+		<Unit filename="scr/Classes/GL.cpp" />
+		<Unit filename="scr/Classes/GL.hpp" />
+		<Unit filename="scr/Classes/Light.cpp" />
+		<Unit filename="scr/Classes/Light.hpp" />
+		<Unit filename="scr/Classes/Player.cpp" />
+		<Unit filename="scr/Classes/Player.hpp" />
+		<Unit filename="scr/Classes/Scenes.cpp" />
+		<Unit filename="scr/Classes/Scenes.hpp" />
+		<Unit filename="scr/Classes/Shader.cpp" />
+		<Unit filename="scr/Classes/Shader.hpp" />
+		<Unit filename="scr/Classes/Util.cpp" />
+		<Unit filename="scr/Classes/Util.hpp" />
+		<Unit filename="scr/Classes/nTCamera.cpp" />
+		<Unit filename="scr/Classes/nTCamera.hpp" />
+		<Unit filename="scr/Classes/nTMap.cpp" />
+		<Unit filename="scr/Classes/nTMap.hpp" />
+		<Unit filename="scr/Classes/nTParticle.cpp" />
+		<Unit filename="scr/Classes/nTParticle.hpp" />
+		<Unit filename="scr/Libs/GL.CallBacks.cpp" />
+		<Unit filename="scr/Libs/GL.Callbacks.h" />
+		<Unit filename="scr/Libs/Globals.cpp" />
+		<Unit filename="scr/Libs/Globals.h" />
+		<Unit filename="scr/Libs/loadFiles.cpp" />
+		<Unit filename="scr/Libs/loadFiles.h" />
+		<Unit filename="scr/Libs/nTLoader.h" />
+		<Unit filename="scr/Libs/soil/SOIL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scr/Libs/soil/SOIL.h" />
+		<Unit filename="scr/Libs/soil/image_DXT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scr/Libs/soil/image_DXT.h" />
+		<Unit filename="scr/Libs/soil/image_helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scr/Libs/soil/image_helper.h" />
+		<Unit filename="scr/Libs/soil/stb_image_aug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scr/Libs/soil/stb_image_aug.h" />
+		<Unit filename="scr/Libs/soil/stbi_DDS_aug.h" />
+		<Unit filename="scr/Libs/soil/stbi_DDS_aug_c.h" />
+		<Unit filename="scr/Libs/tinyLoader.cpp" />
+		<Unit filename="scr/Libs/tinyLoader.h" />
+		<Unit filename="scr/importLibs.h" />
+		<Unit filename="scr/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
