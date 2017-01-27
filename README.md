@@ -1,4 +1,15 @@
 # LostInDitaduraC-64
+```
+#####################
+#*  * **** *  *  ** #
+#** * *  * ** * *  *#
+#* ** **** * ** *  *#
+#*  * *  * *  *  ** #
+#####################
+```
+DevelopedBy: nanoTech e Mascotinho games
+email: nanotechbr.corp@gmail.com
+youtube: https://www.youtube.com/user/LegiaoGamerBR
 
     tp2 em tempo recorde por Thiago Figueiredo e Bernard Menezes
 0-Links::
