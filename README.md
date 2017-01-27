@@ -11,6 +11,8 @@ DevelopedBy: nanoTech e Mascotinho games
 email: nanotechbr.corp@gmail.com
 youtube: https://www.youtube.com/user/LegiaoGamerBR
 
+THIS CODE USES PARTS OF https://github.com/syoyo/tinyobjloader
+
     tp2 em tempo recorde por Thiago Figueiredo e Bernard Menezes
 0-Links::
     a-codigo fonte/versao linux: https://github.com/thiagofigcosta/LostInDitaduraC-64
